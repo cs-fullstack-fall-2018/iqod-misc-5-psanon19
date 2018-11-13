@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+var confirm = "YES";
+var deny = "NO";
+var really = "Are you";
+
+var user_input = prompt("Do you want to quit?").toUpperCase();
+for (i=1;i>0;i++){
+    if (user_input === confirm) {
+        user_input = prompt(really + " sure?").toUpperCase();
+        for (e=1;e>0;e++) {
+            if (user_input === confirm) {
+                really += " really";
+                user_input = prompt(really + " sure?").toUpperCase();
+            }
+            else {
+                alert("Great!");
+                break
+            }
+        }
+    }
+
+}
+
+</script>
+
+</body>
+</html>
