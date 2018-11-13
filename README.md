@@ -6,7 +6,7 @@ Example
 
 Do you want to quit? n
 
-Are you sure? 
+Are you sure? n
 
 Are you really sure? n
 
